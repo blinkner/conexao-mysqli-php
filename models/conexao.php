@@ -7,8 +7,8 @@ define("DATABASE_DB", "meu_banco"); // Nome do banco de dados
 // Mensagens de erro
 $msg[0] = "Conexão com o banco falhou!";
 
-// Fazendo a conexão com o servidor MySQL
 try {
+    // Fazendo a conexão com o servidor MySQL
     $conexao = new mysqli(SERVER_DB, USER_DB, PASS_DB, DATABASE_DB);
 
     // Setando charset do banco
