@@ -1,2 +1,2 @@
-# conexao-mysqli-php
- Conexão mysqli em php
+# Conexão MYSQLI em PHP
+ Conexão mysqli em php com prepared statements
